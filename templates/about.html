@@ -1,0 +1,30 @@
+{% extends 'base.html' %}
+
+{% block title %}
+  About - {{ block.super }}
+{% endblock %}
+
+{% block breadcrumb %}
+        <li class="breadcrumb-item"><a href="{% url 'home' %}">Return to Mahmoud Rooms</a></li>
+{% endblock %}
+{% block content %}
+      <table class="table">
+        <thead class="thead-inverse">
+          <tr>
+            <th>The aim of this board</th>
+           </tr>
+                 </thead>
+        <tbody>
+            <tr>
+              <td>
+                                <small class="text-muted d-block">In this board we will discuss boards related to IT courses</small>
+              </td>
+              
+        </tbody>
+      </table>
+<ol class="breadcrumb my-4">
+        <li class="breadcrumb-item"><a href="{% url 'home' %}">Return to Mahmoud Rooms</a></li>
+        </ol>
+{% endblock %}
+
+   
