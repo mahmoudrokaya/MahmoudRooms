@@ -1,0 +1,19 @@
+appdirs==1.4.4
+asgiref==3.2.10
+certifi==2020.4.5.1
+chardet==3.0.4
+distlib==0.3.1
+dj-database-url==0.5.0
+-e git+https://github.com/django/django.git@659a73bc0a2df9be856e23fcfc6cc66d0d1a35fd#egg=Django
+django-widget-tweaks==1.4.8
+filelock==3.0.12
+idna==2.9
+Markdown==3.2.2
+PyPDF2==1.26.0
+python-decouple==3.3
+pytz==2020.1
+requests==2.23.0
+six==1.15.0
+sqlparse==0.3.1
+urllib3==1.25.9
+virtualenv==20.0.28
